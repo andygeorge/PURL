@@ -19,6 +19,13 @@ cd PURL
 ./PURL.pl "https://example.com"
 ```
 
+## Upgrading
+
+```sh
+rm -rf PURL
+git clone "https://github.com/andygeorge/PURL.git"
+```
+
 ## License
 
 None.
