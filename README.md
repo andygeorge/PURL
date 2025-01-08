@@ -4,7 +4,7 @@
 ## Installation
 
 ```sh
-git clone git@github.com:andygeorge/PURL.git
+git clone "https://github.com/andygeorge/PURL.git"
 ```
 
 ## Usage
