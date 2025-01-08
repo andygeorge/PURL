@@ -10,7 +10,7 @@ git clone "https://github.com/andygeorge/PURL.git"
 ## Usage
 
 ```
-Usage: ./PURL/PURL.pl <URL>
+Usage: ./PURL.pl <URL>
 ```
 
 eg:
