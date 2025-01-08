@@ -10,7 +10,7 @@ git clone "https://github.com/andygeorge/PURL.git"
 ## Usage
 
 ```
-Usage: ./PURL.pl <URL>
+Usage: ./PURL/PURL.pl <URL>
 ```
 
 eg:
@@ -29,3 +29,9 @@ git clone "https://github.com/andygeorge/PURL.git"
 ## License
 
 None.
+
+# Using a container
+
+```sh
+docker run --rm "ghcr.io/andygeorge/purl:latest" "http://example.com"
+```
