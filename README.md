@@ -33,5 +33,5 @@ None.
 # Using a container
 
 ```sh
-docker run --rm "ghcr.io/andygeorge/purl:latest" "http://example.com"
+podman run --rm "ghcr.io/andygeorge/purl:latest" "http://example.com"
 ```
