@@ -33,3 +33,40 @@ inc/
 /MANIFEST.bak
 /pm_to_blib
 /*.zip
+
+# Ignore cargo build output
+target/
+
+# Ignore Cargo.lock if it is under version control
+Cargo.lock
+
+# Ignore editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swn
+*.swo
+*.swx
+
+# Ignore temporary and backup files
+*~
+
+# Ignore log files
+*.log
+
+# Ignore compiled binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore build artifacts for different platforms
+build/
+
+# Ignore tests and benchmarks
+tests/
+benches/
+
+# Ignore generated files by tools like Cargo fmt, clippy, etc.
+clippy.toml
+rustfmt.toml
